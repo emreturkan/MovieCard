@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mukta:wght@300;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #67A6AA;
+}
+.container{
+   
+    height: 100vh;
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 50px;
+   
+    
+    
+}
+
+.card{
+    width: 270px;
+    height: 450px;
+    background: radial-gradient(93.64% 92.28% at 97.27% 94.44%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(12px);
+    border-radius: 20px 20px 0px 0px;
+    transition: 300ms all ease-in-out;
+    cursor: pointer;
+    margin:0 30px 90px 0;
+    
+
+}
+
+.card-img{
+    margin: 30px 50px 5px 50px;
+    
+}
+.card-img img{
+    width: 179px;
+    height: 196px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-title{
+    margin-bottom: 10px;    
+}
+.card-title h2 {
+    font-family: "Anton";
+    font-size: 20px;
+}
+
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.category-item{
+    background: radial-gradient(460% 4059.72% at -196.59% -210.71%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 2px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 14px;
+    font-family: "Mukta";
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.card-text{
+    background: radial-gradient(268.18% 1416.94% at -78.84% -111.69%, #FFFFFF 0%, rgba(255, 255, 255, 0.1) 39.06%);
+    border-radius: 7px;
+    margin: 0 20px 5px 20px;
+    font-family: "Mukta";
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1rem;
+    padding: 10px;
+}
+
+.card-footer{
+    background: radial-gradient(202.25% 5929.68% at -35.81% -34.15%, rgba(79, 132, 137, 0.7) 0%, rgba(75, 126, 131, 0.1) 100%);
+    border-radius: 0px 0px 20px 20px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.heart{
+    transition: 30000ms all ease-in-out;
+}
+.star img{
+    width: 15px;
+}
+.rating{
+    background: radial-gradient(270.59% 608.94% at -85.29% -65.22%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12px);
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+}
+.rating span{
+    font-family: "Mukta";
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+
+.heart:hover path{
+    fill:#FF0202;
+    cursor: pointer;
+}
+
+
+.search {
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin: 10px auto;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: none;
+    border-right: none;
+    padding: 10px;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #000 ;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .searchButton {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #fcd600;
+    background: #fcd600;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 300ms all ease-in-out;
+  }
+  .searchButton:hover{
+      transform: scale(1.1);
+  }
+  
